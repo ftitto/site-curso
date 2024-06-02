@@ -145,3 +145,63 @@ strong {
         display: inline-block;
         letter-spacing: normal;
 }
+
+@media only screen and (max-width: 425px) {
+  body {
+    background-image: url(https://i.pinimg.com/originals/c5/9a/d2/c59ad2bd4ad2fbacd04017debc679ddb.gif);
+  }
+
+  .content{
+    background: rgba( 255, 255, 255, 0.35 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 13.5px );
+    -webkit-backdrop-filter: blur( 13.5px );
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+  }
+
+  .content2{
+    height: 40px;
+    max-width: 210px;
+    font-size: 30px;
+  }
+
+  .content2 span {
+    color: white;
+  }
+
+  .desc {
+    font-size: 18px;
+    width: 320px;
+  }
+
+  .desc2 {
+    font-size: 18px;
+    width: 360px;
+  }
+
+  .desc3 {
+    font-size: 18px;
+    width: 275px;
+  }
+
+
+  .cssbuttons-io-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 50px;
+    width: 170px;
+    background-color: #ffa02e;
+  }
+
+  .cssbuttons-io-button .icon{
+    color: black;
+    background-color: black;
+  }
+
+  .cssbuttons-io-button .icon svg{
+    color: ;
+  }
+
+}

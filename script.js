@@ -6,7 +6,7 @@ $(document).ready(function(){
   var $data = 0;
   var index;
   var change;
-  var letters = ["H", "e", "l", "l", "o",",", " ", "W", "o", "r", "l", "d", "!"]
+  var letters = ["H", "e", "l", "l", "o",",", "W", "o", "r", "l", "d", "!"]
   
   $randomnbr.each(function(){
       
